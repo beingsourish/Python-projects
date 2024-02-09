@@ -1,0 +1,808 @@
+********************************************************************************
+
+ 
+
+num1 = input ("enter number :")
+
+print("num1",num1)
+
+name1 = input("enter name : ")
+
+print("name1",name1)
+
+ 
+
+print ("type of number", type(num1))
+
+print ("type of name", type(name1))
+
+ 
+
+ 
+
+newnum = int(input("enter a number: "))
+
+print(newnum, " ", type(newnum))
+
+ 
+
+                                               
+
+floatnum = float(input("enter a decimal number: "))
+
+print(floatnum, " ", type(floatnum))
+
+ 
+
+ 
+
+ 
+
+********************************************************************************
+
+ 
+
+ 
+
+age = 45
+
+ 
+
+salary = 1456.8
+
+ 
+
+name = "mohana"
+
+ 
+
+print(age)
+
+print(salary)
+
+print(name)
+
+ 
+
+ 
+
+print (type(age))
+
+print (type(salary))
+
+print (type(name))
+
+ 
+
+ 
+
+ 
+
+********************************************************************************
+
+number = 100
+
+ 
+
+print (type(number))
+
+print("before declare: ", number)
+
+ 
+
+number = 120.3
+
+ 
+
+print (type(number))
+
+print("after re-declare:", number)
+
+ 
+
+ 
+
+ 
+
+ 
+
+********************************************************************************
+
+ 
+
+number = 100
+
+ 
+
+print (type(number))
+
+print("before declare: ", number)
+
+ 
+
+number = 120.3
+
+ 
+
+print (type(number))
+
+print("after re-declare:", number)
+
+ 
+
+ 
+
+number = 100
+
+ 
+
+ 
+
+print (type(number))
+
+print("after re-declare:", number)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+a, b, c = 1, 20.2, "name"
+
+ 
+
+print (type(a))
+
+print(type(b))
+
+print(type(c))
+
+ 
+
+print(a)
+
+print(b)
+
+print(c)
+
+ 
+
+ 
+
+ 
+
+********************************************************************************
+
+ 
+
+x = 15
+
+ 
+
+def change():
+
+                x = 4
+
+                x = x + 5
+
+                print("value of x inside a function :", x)
+
+ 
+
+ 
+
+print("value of x outside a function :", x)
+
+ 
+
+change()
+
+ 
+
+ 
+
+********************************************************************************
+
+x = 15
+
+ 
+
+def change():     
+
+        x=52
+
+        x=x+100
+
+        print("value of x inside a function :", x)
+
+ 
+
+change()
+
+ 
+
+print("value of x outside a function :", x)
+
+ 
+
+x=500
+
+ 
+
+change()
+
+ 
+
+print("value of x outside a function :", x)
+
+ 
+
+********************************************************************************
+
+ 
+
+x = 15
+
+ 
+
+def change():     
+
+        x=52
+
+        x=x+100
+
+        print("value of x inside a function :", x)
+
+        x=500
+
+        print("value of x inside a function :", x)
+
+        change()
+
+ 
+
+change()
+
+ 
+
+ 
+
+ 
+
+********************************************************************************
+
+ 
+
+#program2
+
+ 
+
+x = 15
+
+ 
+
+def change():
+
+                x = 4
+
+                x = x + 5
+
+                print("value of x inside a function :", x)
+
+ 
+
+change()
+
+print("value of x outside a function :", x)
+
+ 
+
+ 
+
+ 
+
+ 
+
+********************************************************************************
+
+ 
+
+x = 15
+
+z=150
+
+def change():
+
+                global y
+
+                y=x+5
+
+                global z
+
+                z=25
+
+                print("value of y inside a function :", y)
+
+                print("value of x outside a function :", x)
+
+change()
+
+print("value of z outside a function :", z)
+
+ 
+
+ 
+
+ 
+
+********************************************************************************
+
+ 
+
+ 
+
+a, b = 10, 20
+
+ 
+
+ 
+
+min = a if a < b else b
+
+ 
+
+print(min)
+
+ 
+
+ 
+
+a, b = 10, 5
+
+ 
+
+min = a if a < b else b
+
+ 
+
+print(min)
+
+ 
+
+ 
+
+ 
+
+ 
+
+********************************************************************************
+
+ 
+
+# examples of operator associativity
+
+ 
+
+print(100 / 10 * 10)
+
+ 
+
+print(5 - 2 + 3)
+
+ 
+
+print(5 - (2 + 3))
+
+ 
+
+print(2 ** 3 ** 2)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+********************************************************************************
+
+# use of insert ,del ,remove ,append
+
+elements = [91,43,'all','the','best','100']
+
+ 
+
+print("type of elements: ", type(elements))
+
+ 
+
+print ("the list is : ",elements )
+
+print ( "the lenghth of the list before removal is : " , len (elements ))
+
+ 
+
+elements.remove (91)
+
+print ("the new list is after removal : ",elements )
+
+print ( "the lenghth of the list after removal is : " , len (elements ))
+
+ 
+
+new =125
+
+elements.append(new)
+
+print ("the new list is after append is : ",elements )
+
+print ( "the lenghth of the list after append is : " , len (elements ))
+
+ 
+
+ 
+
+elements.insert (0,'revised')
+
+print ("the new list is after insert is : ",elements )
+
+print ( "the lenghth of the list after insert is : " , len (elements ))
+
+ 
+
+ 
+
+print ("printing the elements from 4th to 6th in the list ",elements[3:6])
+
+ 
+
+ 
+
+del elements[0:3]
+
+print ("the list of elements after removing 1st ,2nd and 3rd elements are :", elements )
+
+ 
+
+elements = [1,2,3,4,5,6,7,8,9,10]
+
+print (elements[::-1])
+
+ 
+
+ 
+
+ 
+
+********************************************************************************
+
+# use of insert ,del ,remove ,append
+
+e = [9,8,7,6,5,4,3,2,1]
+
+print ("the list is : ",e)
+
+print ( "the lenghth of the list is : " , len (e ))
+
+ 
+
+print ("value 1 ",e[0])
+
+ 
+
+print ("value 2 ",e[0:2])
+
+ 
+
+print ("value 3 ",e[3:11])
+
+ 
+
+print ("value 4 ",e[-1])
+
+ 
+
+print ("value 5 ",e[-3:-1])
+
+ 
+
+print ("value 6 ",e[-1:-3])
+
+ 
+
+print ("value 6 ",e[::-1])
+
+ 
+
+new=100
+
+e.append(new)
+
+ 
+
+print ("value 7 ",e)
+
+ 
+
+e.append(101)
+
+print ("value 8 ", e)
+
+ 
+
+e.insert (5,999)
+
+ 
+
+print ("value 9 ", e)
+
+ 
+
+del e[1:8]
+
+ 
+
+print ("value 10 ", e)
+
+ 
+
+ 
+
+i = 0
+
+a = 'tech'
+
+b=len(a)
+
+print (b)
+
+ 
+
+while i < len(a):
+
+                if a[i] == 'e' or a[i] == 's':
+
+                                i+=1
+
+                print('current letter :', a[i])
+
+ 
+
+ 
+
+ 
+
+ 
+
+********************************************************************************
+
+ 
+
+i = 10
+
+if (i >10):
+
+ 
+
+                if (i < 15):
+
+                                print("i is smaller than 15")
+
+ 
+
+                if (i <12):
+
+                                print("i is smaller than 12 too")
+
+                else:
+
+                                print("i is lesser than 15")
+
+ 
+
+print("i is less than 10 ")
+
+ 
+
+ 
+
+ 
+
+i = 10
+
+if (i ==10):
+
+ 
+
+                if (i >5):
+
+                                print("result 1 ")
+
+ 
+
+                if (i >1):
+
+                                print("result 2 ")
+
+                               
+
+                else:
+
+                                print("result 3 ")
+
+                               
+
+print("result 4  ")
+
+ 
+
+ 
+
+ 
+
+********************************************************************************
+
+ 
+
+i = 10
+
+if (i == 10):
+
+                print("i is 10")
+
+                i=15
+
+elif (i == 15):
+
+                print("i is 15")
+
+                i=20
+
+elif (i == 20):
+
+                print("i is 20")
+
+                i=30
+
+else:
+
+                print("i is not present")
+
+ 
+
+ 
+
+ 
+
+********************************************************************************
+
+ 
+
+ 
+
+ 
+
+********************************************************************************
+
+ 
+
+ 
+
+# python code to illustrate
+
+# chaining comparison operators
+
+x = 5
+
+print(1 < x < 10)
+
+print(10 < x < 20 )
+
+print(x < 10 < x*10 < 100)
+
+print(10 > x <= 9)
+
+print(5 == x > 4)
+
+ 
+
+ 
+
+ 
+
+******************************************************************************
+
+print("string iteration")
+
+s = "python"
+
+for i in s:
+
+                print(i)
+
+******************************************************************************
+
+ 
+
+for i in 'padmavathi':
+
+    if i == 'z' or i == 'v':  
+
+        print('letter :', i)
+
+ 
+
+ 
+
+******************************************************************************
+
+ 
+
+for letter in 'current':
+
+    if letter == 'e' or letter == 'n':
+
+        print('current letter :', letter)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+******************************************************************************
+
+ 
+
+ 
+
+for letter in 'current':
+
+    if letter == 'e' or letter == 'n':
+
+        break
+
+    print('current letter :', letter)
+
+ 
+
+******************************************************************************
+
+ 
+
+for letter in 'current':
+
+    if letter == 'e' or letter == 'n':
+
+        pass
+
+    print('current letter :', letter)
+
+******************************************************************************
+
+ 
+
+ 
+
+for letter in 'current':
+
+    if letter == 'e' or letter == 'n':
+
+        continue
+
+    print('current letter :', letter)
+
+******************************************************************************
+
