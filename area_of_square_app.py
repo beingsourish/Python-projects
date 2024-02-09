@@ -1,8 +1,3 @@
-__author__ = "Nitkarsh Chourasia"
-__author_GitHub_profile__ = "https://github.com/NitkarshChourasia"
-__author_email_address__ = "playnitkarsh@gmal.com"
-__created_on__ = "10/10/2021"
-__last_updated__ = "10/10/2021"
 
 from word2number import w2n
 
